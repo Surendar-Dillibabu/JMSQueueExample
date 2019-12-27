@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JMSMessageExport>
+
+    <mes:WLJMSMessage xmlns:mes="http://www.bea.com/WLS/JMS/Message">
+        <mes:Header>
+            <mes:JMSMessageID>ID:&lt;260087.1577417131595.0></mes:JMSMessageID>
+            <mes:JMSDeliveryMode>PERSISTENT</mes:JMSDeliveryMode>
+            <mes:JMSExpiration>0</mes:JMSExpiration>
+            <mes:JMSPriority>4</mes:JMSPriority>
+            <mes:JMSRedelivered>false</mes:JMSRedelivered>
+            <mes:JMSTimestamp>1577417131595</mes:JMSTimestamp>
+            <mes:Properties>
+                <mes:property name="JMS_BEA_DeliveryTime">
+                    <mes:Long>1577417131595</mes:Long>
+                </mes:property>
+                <mes:property name="JMSXDeliveryCount">
+                    <mes:Int>0</mes:Int>
+                </mes:property>
+            </mes:Properties>
+        </mes:Header>
+        <mes:Body>
+            <mes:Text>Hi, Am msg-1</mes:Text>
+        </mes:Body>
+    </mes:WLJMSMessage>
+    <mes:WLJMSMessage xmlns:mes="http://www.bea.com/WLS/JMS/Message">
+        <mes:Header>
+            <mes:JMSMessageID>ID:&lt;260087.1577417131617.0></mes:JMSMessageID>
+            <mes:JMSDeliveryMode>PERSISTENT</mes:JMSDeliveryMode>
+            <mes:JMSExpiration>0</mes:JMSExpiration>
+            <mes:JMSPriority>4</mes:JMSPriority>
+            <mes:JMSRedelivered>false</mes:JMSRedelivered>
+            <mes:JMSTimestamp>1577417131617</mes:JMSTimestamp>
+            <mes:Properties>
+                <mes:property name="JMS_BEA_DeliveryTime">
+                    <mes:Long>1577417131617</mes:Long>
+                </mes:property>
+                <mes:property name="JMSXDeliveryCount">
+                    <mes:Int>0</mes:Int>
+                </mes:property>
+            </mes:Properties>
+        </mes:Header>
+        <mes:Body>
+            <mes:Text>Hi, Am msg-2</mes:Text>
+        </mes:Body>
+    </mes:WLJMSMessage>
+    <mes:WLJMSMessage xmlns:mes="http://www.bea.com/WLS/JMS/Message">
+        <mes:Header>
+            <mes:JMSMessageID>ID:&lt;260087.1577417131617.1></mes:JMSMessageID>
+            <mes:JMSDeliveryMode>PERSISTENT</mes:JMSDeliveryMode>
+            <mes:JMSExpiration>0</mes:JMSExpiration>
+            <mes:JMSPriority>4</mes:JMSPriority>
+            <mes:JMSRedelivered>false</mes:JMSRedelivered>
+            <mes:JMSTimestamp>1577417131617</mes:JMSTimestamp>
+            <mes:Properties>
+                <mes:property name="JMS_BEA_DeliveryTime">
+                    <mes:Long>1577417131617</mes:Long>
+                </mes:property>
+                <mes:property name="JMSXDeliveryCount">
+                    <mes:Int>0</mes:Int>
+                </mes:property>
+            </mes:Properties>
+        </mes:Header>
+        <mes:Body>
+            <mes:Text>Hi, Am msg-3</mes:Text>
+        </mes:Body>
+    </mes:WLJMSMessage>
+    <mes:WLJMSMessage xmlns:mes="http://www.bea.com/WLS/JMS/Message">
+        <mes:Header>
+            <mes:JMSMessageID>ID:&lt;260087.1577417131617.2></mes:JMSMessageID>
+            <mes:JMSDeliveryMode>PERSISTENT</mes:JMSDeliveryMode>
+            <mes:JMSExpiration>0</mes:JMSExpiration>
+            <mes:JMSPriority>4</mes:JMSPriority>
+            <mes:JMSRedelivered>false</mes:JMSRedelivered>
+            <mes:JMSTimestamp>1577417131617</mes:JMSTimestamp>
+            <mes:Properties>
+                <mes:property name="JMS_BEA_DeliveryTime">
+                    <mes:Long>1577417131617</mes:Long>
+                </mes:property>
+                <mes:property name="JMSXDeliveryCount">
+                    <mes:Int>0</mes:Int>
+                </mes:property>
+            </mes:Properties>
+        </mes:Header>
+        <mes:Body>
+            <mes:Text>Hi, Am msg-4</mes:Text>
+        </mes:Body>
+    </mes:WLJMSMessage>
+    <mes:WLJMSMessage xmlns:mes="http://www.bea.com/WLS/JMS/Message">
+        <mes:Header>
+            <mes:JMSMessageID>ID:&lt;260087.1577417131632.0></mes:JMSMessageID>
+            <mes:JMSDeliveryMode>PERSISTENT</mes:JMSDeliveryMode>
+            <mes:JMSExpiration>0</mes:JMSExpiration>
+            <mes:JMSPriority>4</mes:JMSPriority>
+            <mes:JMSRedelivered>false</mes:JMSRedelivered>
+            <mes:JMSTimestamp>1577417131632</mes:JMSTimestamp>
+            <mes:Properties>
+                <mes:property name="JMS_BEA_DeliveryTime">
+                    <mes:Long>1577417131632</mes:Long>
+                </mes:property>
+                <mes:property name="JMSXDeliveryCount">
+                    <mes:Int>0</mes:Int>
+                </mes:property>
+            </mes:Properties>
+        </mes:Header>
+        <mes:Body>
+            <mes:Text>Hi, Am msg-5</mes:Text>
+        </mes:Body>
+    </mes:WLJMSMessage>
+    <mes:WLJMSMessage xmlns:mes="http://www.bea.com/WLS/JMS/Message">
+        <mes:Header>
+            <mes:JMSMessageID>ID:&lt;260087.1577417131632.1></mes:JMSMessageID>
+            <mes:JMSDeliveryMode>PERSISTENT</mes:JMSDeliveryMode>
+            <mes:JMSExpiration>0</mes:JMSExpiration>
+            <mes:JMSPriority>4</mes:JMSPriority>
+            <mes:JMSRedelivered>false</mes:JMSRedelivered>
+            <mes:JMSTimestamp>1577417131632</mes:JMSTimestamp>
+            <mes:Properties>
+                <mes:property name="JMS_BEA_DeliveryTime">
+                    <mes:Long>1577417131632</mes:Long>
+                </mes:property>
+                <mes:property name="JMSXDeliveryCount">
+                    <mes:Int>0</mes:Int>
+                </mes:property>
+            </mes:Properties>
+        </mes:Header>
+        <mes:Body>
+            <mes:Text>Hi, Am msg-6</mes:Text>
+        </mes:Body>
+    </mes:WLJMSMessage>
+    <mes:WLJMSMessage xmlns:mes="http://www.bea.com/WLS/JMS/Message">
+        <mes:Header>
+            <mes:JMSMessageID>ID:&lt;260087.1577417131632.2></mes:JMSMessageID>
+            <mes:JMSDeliveryMode>PERSISTENT</mes:JMSDeliveryMode>
+            <mes:JMSExpiration>0</mes:JMSExpiration>
+            <mes:JMSPriority>4</mes:JMSPriority>
+            <mes:JMSRedelivered>false</mes:JMSRedelivered>
+            <mes:JMSTimestamp>1577417131632</mes:JMSTimestamp>
+            <mes:Properties>
+                <mes:property name="JMS_BEA_DeliveryTime">
+                    <mes:Long>1577417131632</mes:Long>
+                </mes:property>
+                <mes:property name="JMSXDeliveryCount">
+                    <mes:Int>0</mes:Int>
+                </mes:property>
+            </mes:Properties>
+        </mes:Header>
+        <mes:Body>
+            <mes:Text>Hi, Am msg-7</mes:Text>
+        </mes:Body>
+    </mes:WLJMSMessage>
+    <mes:WLJMSMessage xmlns:mes="http://www.bea.com/WLS/JMS/Message">
+        <mes:Header>
+            <mes:JMSMessageID>ID:&lt;260087.1577417131632.3></mes:JMSMessageID>
+            <mes:JMSDeliveryMode>PERSISTENT</mes:JMSDeliveryMode>
+            <mes:JMSExpiration>0</mes:JMSExpiration>
+            <mes:JMSPriority>4</mes:JMSPriority>
+            <mes:JMSRedelivered>false</mes:JMSRedelivered>
+            <mes:JMSTimestamp>1577417131632</mes:JMSTimestamp>
+            <mes:Properties>
+                <mes:property name="JMS_BEA_DeliveryTime">
+                    <mes:Long>1577417131632</mes:Long>
+                </mes:property>
+                <mes:property name="JMSXDeliveryCount">
+                    <mes:Int>0</mes:Int>
+                </mes:property>
+            </mes:Properties>
+        </mes:Header>
+        <mes:Body>
+            <mes:Text>Hi, Am msg-8</mes:Text>
+        </mes:Body>
+    </mes:WLJMSMessage>
+    <mes:WLJMSMessage xmlns:mes="http://www.bea.com/WLS/JMS/Message">
+        <mes:Header>
+            <mes:JMSMessageID>ID:&lt;260087.1577417131648.0></mes:JMSMessageID>
+            <mes:JMSDeliveryMode>PERSISTENT</mes:JMSDeliveryMode>
+            <mes:JMSExpiration>0</mes:JMSExpiration>
+            <mes:JMSPriority>4</mes:JMSPriority>
+            <mes:JMSRedelivered>false</mes:JMSRedelivered>
+            <mes:JMSTimestamp>1577417131648</mes:JMSTimestamp>
+            <mes:Properties>
+                <mes:property name="JMS_BEA_DeliveryTime">
+                    <mes:Long>1577417131648</mes:Long>
+                </mes:property>
+                <mes:property name="JMSXDeliveryCount">
+                    <mes:Int>0</mes:Int>
+                </mes:property>
+            </mes:Properties>
+        </mes:Header>
+        <mes:Body>
+            <mes:Text>Hi, Am msg-9</mes:Text>
+        </mes:Body>
+    </mes:WLJMSMessage>
+    <mes:WLJMSMessage xmlns:mes="http://www.bea.com/WLS/JMS/Message">
+        <mes:Header>
+            <mes:JMSMessageID>ID:&lt;260087.1577417131648.1></mes:JMSMessageID>
+            <mes:JMSDeliveryMode>PERSISTENT</mes:JMSDeliveryMode>
+            <mes:JMSExpiration>0</mes:JMSExpiration>
+            <mes:JMSPriority>4</mes:JMSPriority>
+            <mes:JMSRedelivered>false</mes:JMSRedelivered>
+            <mes:JMSTimestamp>1577417131648</mes:JMSTimestamp>
+            <mes:Properties>
+                <mes:property name="JMS_BEA_DeliveryTime">
+                    <mes:Long>1577417131648</mes:Long>
+                </mes:property>
+                <mes:property name="JMSXDeliveryCount">
+                    <mes:Int>0</mes:Int>
+                </mes:property>
+            </mes:Properties>
+        </mes:Header>
+        <mes:Body>
+            <mes:Text>Hi, Am msg-10</mes:Text>
+        </mes:Body>
+    </mes:WLJMSMessage>
+    
+</JMSMessageExport>
