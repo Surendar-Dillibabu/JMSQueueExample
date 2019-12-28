@@ -22,7 +22,7 @@ public class JMSConsumerUsingListener {
       Context context = new InitialContext(ht);
       ConnectionFactory connFactory = (ConnectionFactory) context.lookup("jms/TestConnectionFactory");
       conn = connFactory.createConnection();
-      Session session = conn.createSession(false, Session.AUTO_ACKNOWLEDGE);
+      Session session = conn.createSession(false, Session.CLIENT_ACKNOWLEDGE);
       Queue queue = (Queue) context.lookup("jms/TestQueue");
       conn.start();
       MessageConsumer consumer = session.createConsumer(queue);

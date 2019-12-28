@@ -23,12 +23,20 @@ public class JMSProducer {
       Context context = new InitialContext(ht);
       ConnectionFactory connFactory = (ConnectionFactory) context.lookup("jms/TestConnectionFactory");
       conn = connFactory.createConnection();
-      Session session = conn.createSession(false, Session.AUTO_ACKNOWLEDGE);
+      Session session = conn.createSession(false, Session.CLIENT_ACKNOWLEDGE);
       Queue queue = (Queue) context.lookup("jms/TestQueue");
       conn.start();
       for (int lp1 = 1; lp1 <= 30; lp1++) {
         MessageProducer producer = session.createProducer(queue);
         TextMessage msg = session.createTextMessage("Hi, Am msg-" + lp1);
+        // This below setDeliveryMode method will be used to store the persistent state
+        // of messages.
+        // If we set the mode as NON_PERSISTENT then when the server crashes or server
+        // restarted the messages will not be present in the store. It will be removed.
+        // If we set the mode as PERSISTENT then when the server crashes or server
+        // restarted the messages will be present in the store. It will not be removed.
+        // Default mode is PERSISTENT
+        // producer.setDeliveryMode(DeliveryMode.NON_PERSISTENT);
         producer.send(msg);
       }
       System.out.println("Message succesfully sent to the producer");

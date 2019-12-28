@@ -26,9 +26,9 @@ public class JMSConsumer {
       Session session = conn.createSession(false, Session.AUTO_ACKNOWLEDGE);
       Queue queue = (Queue) context.lookup("jms/TestQueue");
       conn.start();
-      for (int lp1 = 1; lp1 <= 10; lp1++) {
+      for (int lp1 = 1; lp1 <= 30; lp1++) {
         MessageConsumer consumer = session.createConsumer(queue);
-        TextMessage msg = (TextMessage) consumer.receive();
+        TextMessage msg = (TextMessage) consumer.receive();       
         System.out.println("Message received from the producer :" + msg.getText());
       }
     } finally {
